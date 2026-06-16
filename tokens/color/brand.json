@@ -1,16 +1,29 @@
 {
   "color": {
     "brand": {
-      "void": { "$type": "color", "$value": "#06100B", "$description": "Atumerce deep void — primary dark surface" },
-      "panel": { "$type": "color", "$value": "#000000B3", "$description": "Glass panel overlay at 70% opacity" },
-      "line": { "$type": "color", "$value": "#FFFFFF26", "$description": "Subtle divider line at 15% white" },
-      "text": { "$type": "color", "$value": "#E6E6E6", "$description": "Primary readable text on dark surfaces" },
-      "muted": { "$type": "color", "$value": "#999999", "$description": "Secondary / caption text" },
-      "turquoise": { "$type": "color", "$value": "#00CCBB", "$description": "Brand accent — CTA, links, highlights" },
-      "turquoiseGlow": { "$type": "color", "$value": "#00CCBB33", "$description": "Turquoise at 20% for glow/shadow" },
-      "gold": { "$type": "color", "$value": "#FFC34D", "$description": "Brand gold — premium, rewards, highlights" },
-      "goldDeep": { "$type": "color", "$value": "#CC9200", "$description": "Deep gold for emphasis states" },
-      "teal": { "$type": "color", "$value": "#003330", "$description": "Dark teal for secondary surfaces" }
+      "turquoise": {
+        "1": { "$type": "color", "$value": "#00AAFF", "$description": "Turquoise light — glow, highlights" },
+        "2": { "$type": "color", "$value": "#4DFFF5", "$description": "Turquoise bright — emphasis states" },
+        "3": { "$type": "color", "$value": "#00CCBB", "$description": "Turquoise core — CTA, links, brand accent" },
+        "4": { "$type": "color", "$value": "#003330", "$description": "Teal dark — secondary surfaces, deep backgrounds" }
+      },
+      "gold": {
+        "1": { "$type": "color", "$value": "#FFC34D", "$description": "Gold main — premium, rewards, primary highlights" },
+        "2": { "$type": "color", "$value": "#BF9540", "$description": "Gold warm — hover, secondary emphasis" },
+        "3": { "$type": "color", "$value": "#CC8800", "$description": "Gold deep — active states, strong emphasis" },
+        "4": { "$type": "color", "$value": "#996600", "$description": "Gold darker — subdued premium elements" },
+        "5": { "$type": "color", "$value": "#604000", "$description": "Gold shadow — dark accents, borders" }
+      },
+      "mono": {
+        "1": { "$type": "color", "$value": "#000000", "$description": "Pure black — deepest void" },
+        "2": { "$type": "color", "$value": "#000000CC", "$description": "Black 80% — overlays, panels" },
+        "3": { "$type": "color", "$value": "#000000B3", "$description": "Black 70% — glass panels" },
+        "4": { "$type": "color", "$value": "#00000099", "$description": "Black 60% — subtle overlays" },
+        "5": { "$type": "color", "$value": "#FFFFFF26", "$description": "White 15% — subtle lines, dividers" },
+        "6": { "$type": "color", "$value": "#FFFFFF4D", "$description": "White 30% — hover overlays, borders" },
+        "7": { "$type": "color", "$value": "#999999", "$description": "Muted grey — secondary text, captions" },
+        "8": { "$type": "color", "$value": "#E6E6E6", "$description": "Light grey — primary text on dark" }
+      }
     }
   }
 }

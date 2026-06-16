@@ -1,35 +1,46 @@
 // Atumerce Design Tokens — SCSS Variables
 // Generated from W3C Design Tokens Format
 
-// Brand Colors
-$color-brand-void: #06100B;
-$color-brand-panel: rgba(0, 0, 0, 0.7);
-$color-brand-line: rgba(255, 255, 255, 0.15);
-$color-brand-text: #E6E6E6;
-$color-brand-muted: #999999;
-$color-brand-turquoise: #00CCBB;
-$color-brand-turquoise-glow: rgba(0, 204, 187, 0.2);
-$color-brand-gold: #FFC34D;
-$color-brand-gold-deep: #CC9200;
-$color-brand-teal: #003330;
+// Brand Colors — Turquoise Scale
+$color-brand-turquoise-1: #00AAFF;
+$color-brand-turquoise-2: #4DFFF5;
+$color-brand-turquoise-3: #00CCBB;
+$color-brand-turquoise-4: #003330;
+
+// Brand Colors — Old Gold Scale
+$color-brand-gold-1: #FFC34D;
+$color-brand-gold-2: #BF9540;
+$color-brand-gold-3: #CC8800;
+$color-brand-gold-4: #996600;
+$color-brand-gold-5: #604000;
+
+// Brand Colors — Mono Scale
+$color-brand-mono-1: #000000;
+$color-brand-mono-2: rgba(0, 0, 0, 0.8);
+$color-brand-mono-3: rgba(0, 0, 0, 0.7);
+$color-brand-mono-4: rgba(0, 0, 0, 0.6);
+$color-brand-mono-5: rgba(255, 255, 255, 0.15);
+$color-brand-mono-6: rgba(255, 255, 255, 0.3);
+$color-brand-mono-7: #999999;
+$color-brand-mono-8: #E6E6E6;
 
 // Semantic Colors
-$color-semantic-surface-default: #06100B;
-$color-semantic-surface-raised: #0A1A14;
+$color-semantic-surface-default: #000000;
+$color-semantic-surface-raised: rgba(0, 0, 0, 0.8);
 $color-semantic-surface-overlay: rgba(0, 0, 0, 0.7);
 $color-semantic-text-primary: #E6E6E6;
 $color-semantic-text-secondary: #999999;
-$color-semantic-text-inverse: #06100B;
+$color-semantic-text-inverse: #000000;
 $color-semantic-border-subtle: rgba(255, 255, 255, 0.15);
 $color-semantic-border-accent: #00CCBB;
 $color-semantic-state-hover: rgba(0, 204, 187, 0.1);
 $color-semantic-state-active: rgba(0, 204, 187, 0.2);
 $color-semantic-state-disabled: rgba(153, 153, 153, 0.4);
 
-// Typography
+// Typography — Only Mona Sans
 $font-family-sans: 'Mona Sans', ui-sans-serif, system-ui, sans-serif;
 $font-family-display: 'Mona Sans', ui-sans-serif, system-ui, sans-serif;
-$font-family-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+$font-family-mono: 'Mona Sans', ui-monospace, SFMono-Regular, monospace;
 $font-size-xs: 0.75rem;
 $font-size-sm: 0.875rem;
 $font-size-base: 1rem;

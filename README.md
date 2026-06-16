@@ -10,7 +10,7 @@ tokens/
 │   ├── brand.json      # Atumerce brand colors (void, turquoise, gold...)
 │   └── semantic.json   # Text, surface, border, state colors
 ├── font/
-│   ├── family.json     # Mona Sans, IBM Plex Mono
+│   ├── family.json     # Mona Sans (sole typeface)
 │   └── size.json       # 12px — 72px scale
 ├── spacing.json        # 4px — 128px scale
 ├── shadow.json         # Elevation + glow tokens
@@ -31,7 +31,7 @@ npm install @atumerce/tokens
 @import '@atumerce/tokens/build/css/variables.css';
 
 .button {
-  background: var(--color-brand-turquoise);
+  background: var(--color-brand-turquoise-3);
   color: var(--color-semantic-text-primary);
 }
 ```
@@ -41,7 +41,7 @@ npm install @atumerce/tokens
 ```js
 import tokens from '@atumerce/tokens/build/js/tokens.js';
 
-// tokens.color.brand.turquoise.value  // "#00CCBB"
+// tokens.color.brand.turquoise['3'].value  // "#00CCBB"
 ```
 
 ### SCSS
@@ -50,7 +50,7 @@ import tokens from '@atumerce/tokens/build/js/tokens.js';
 @import '@atumerce/tokens/build/scss/tokens';
 
 .card {
-  background: $color-brand-void;
+  background: $color-brand-mono-1;
   padding: $spacing-4;
 }
 ```

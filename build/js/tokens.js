@@ -5,36 +5,49 @@
 
 export const color = {
   brand: {
-    void: { value: '#06100B', type: 'color', description: 'Primary dark surface' },
-    panel: { value: 'rgba(0,0,0,0.7)', type: 'color', description: 'Glass panel overlay' },
-    line: { value: 'rgba(255,255,255,0.15)', type: 'color', description: 'Subtle divider line' },
-    text: { value: '#E6E6E6', type: 'color', description: 'Primary readable text' },
-    muted: { value: '#999999', type: 'color', description: 'Secondary text' },
-    turquoise: { value: '#00CCBB', type: 'color', description: 'Brand accent' },
-    turquoiseGlow: { value: 'rgba(0,204,187,0.2)', type: 'color', description: 'Turquoise glow' },
-    gold: { value: '#FFC34D', type: 'color', description: 'Brand gold' },
-    goldDeep: { value: '#CC9200', type: 'color', description: 'Deep gold' },
-    teal: { value: '#003330', type: 'color', description: 'Dark teal surface' },
+    turquoise: {
+      1: { value: '#00AAFF', type: 'color', description: 'Turquoise light — glow, highlights' },
+      2: { value: '#4DFFF5', type: 'color', description: 'Turquoise bright — emphasis states' },
+      3: { value: '#00CCBB', type: 'color', description: 'Turquoise core — CTA, links, brand accent' },
+      4: { value: '#003330', type: 'color', description: 'Teal dark — secondary surfaces' },
+    },
+    gold: {
+      1: { value: '#FFC34D', type: 'color', description: 'Gold main — premium, rewards, primary highlights' },
+      2: { value: '#BF9540', type: 'color', description: 'Gold warm — hover, secondary emphasis' },
+      3: { value: '#CC8800', type: 'color', description: 'Gold deep — active states, strong emphasis' },
+      4: { value: '#996600', type: 'color', description: 'Gold darker — subdued premium elements' },
+      5: { value: '#604000', type: 'color', description: 'Gold shadow — dark accents, borders' },
+    },
+    mono: {
+      1: { value: '#000000', type: 'color', description: 'Pure black — deepest void' },
+      2: { value: 'rgba(0,0,0,0.8)', type: 'color', description: 'Black 80% — overlays, panels' },
+      3: { value: 'rgba(0,0,0,0.7)', type: 'color', description: 'Black 70% — glass panels' },
+      4: { value: 'rgba(0,0,0,0.6)', type: 'color', description: 'Black 60% — subtle overlays' },
+      5: { value: 'rgba(255,255,255,0.15)', type: 'color', description: 'White 15% — subtle lines, dividers' },
+      6: { value: 'rgba(255,255,255,0.3)', type: 'color', description: 'White 30% — hover overlays, borders' },
+      7: { value: '#999999', type: 'color', description: 'Muted grey — secondary text, captions' },
+      8: { value: '#E6E6E6', type: 'color', description: 'Light grey — primary text on dark' },
+    },
   },
   semantic: {
     surface: {
-      default: { value: '#06100B', type: 'color' },
-      raised: { value: '#0A1A14', type: 'color' },
-      overlay: { value: 'rgba(0,0,0,0.7)', type: 'color' },
+      default: { value: '#000000', type: 'color', description: 'Default page background — mono.1' },
+      raised: { value: 'rgba(0,0,0,0.8)', type: 'color', description: 'Card / elevated surface — mono.2' },
+      overlay: { value: 'rgba(0,0,0,0.7)', type: 'color', description: 'Modal / panel overlay — mono.3' },
     },
     text: {
-      primary: { value: '#E6E6E6', type: 'color' },
-      secondary: { value: '#999999', type: 'color' },
-      inverse: { value: '#06100B', type: 'color' },
+      primary: { value: '#E6E6E6', type: 'color', description: 'Headings, body text — mono.8' },
+      secondary: { value: '#999999', type: 'color', description: 'Captions, metadata — mono.7' },
+      inverse: { value: '#000000', type: 'color', description: 'Text on light backgrounds — mono.1' },
     },
     border: {
-      subtle: { value: 'rgba(255,255,255,0.15)', type: 'color' },
-      accent: { value: '#00CCBB', type: 'color' },
+      subtle: { value: 'rgba(255,255,255,0.15)', type: 'color', description: 'Dividers, borders on dark — mono.5' },
+      accent: { value: '#00CCBB', type: 'color', description: 'Active / focused borders — turquoise.3' },
     },
     state: {
-      hover: { value: 'rgba(0,204,187,0.1)', type: 'color' },
-      active: { value: 'rgba(0,204,187,0.2)', type: 'color' },
-      disabled: { value: 'rgba(153,153,153,0.4)', type: 'color' },
+      hover: { value: 'rgba(0,204,187,0.1)', type: 'color', description: 'Hover overlay at 10% turquoise.3' },
+      active: { value: 'rgba(0,204,187,0.2)', type: 'color', description: 'Active / pressed overlay at 20% turquoise.3' },
+      disabled: { value: 'rgba(153,153,153,0.4)', type: 'color', description: 'Disabled state at 40% mono.7' },
     },
   },
 };
@@ -43,7 +56,7 @@ export const font = {
   family: {
     sans: { value: ['Mona Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'], type: 'fontFamily' },
     display: { value: ['Mona Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'], type: 'fontFamily' },
-    mono: { value: ['IBM Plex Mono', 'ui-monospace', 'SFMono-Regular', 'monospace'], type: 'fontFamily' },
+    mono: { value: ['Mona Sans', 'ui-monospace', 'SFMono-Regular', 'monospace'], type: 'fontFamily', description: 'Data / code labels — Mona Sans tabular variant' },
   },
   size: {
     xs: { value: '0.75rem', type: 'fontSize' },

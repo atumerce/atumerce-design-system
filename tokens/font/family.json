@@ -3,7 +3,7 @@
     "family": {
       "sans": { "$type": "fontFamily", "$value": ["Mona Sans", "ui-sans-serif", "system-ui", "sans-serif"], "$description": "Primary sans-serif — headings, UI, body" },
       "display": { "$type": "fontFamily", "$value": ["Mona Sans", "ui-sans-serif", "system-ui", "sans-serif"], "$description": "Display / marketing type" },
-      "mono": { "$type": "fontFamily", "$value": ["IBM Plex Mono", "ui-monospace", "SFMono-Regular", "monospace"], "$description": "Monospace — code, data, labels" }
+      "mono": { "$type": "fontFamily", "$value": ["Mona Sans", "ui-monospace", "SFMono-Regular", "monospace"], "$description": "Data / code labels — Mona Sans tabular variant" }
     }
   }
 }

@@ -18,16 +18,28 @@ export default {
         mono: tokens.font.family.mono.value,
       },
       colors: {
-        atumerce: {
-          void: tokens.color.brand.void.value,
-          panel: tokens.color.brand.panel.value,
-          line: tokens.color.brand.line.value,
-          text: tokens.color.brand.text.value,
-          muted: tokens.color.brand.muted.value,
-          turquoise: tokens.color.brand.turquoise.value,
-          gold: tokens.color.brand.gold.value,
-          goldDeep: tokens.color.brand.goldDeep.value,
-          teal: tokens.color.brand.teal.value,
+        turquoise: {
+          1: tokens.color.brand.turquoise['1'].value,
+          2: tokens.color.brand.turquoise['2'].value,
+          3: tokens.color.brand.turquoise['3'].value,
+          4: tokens.color.brand.turquoise['4'].value,
+        },
+        gold: {
+          1: tokens.color.brand.gold['1'].value,
+          2: tokens.color.brand.gold['2'].value,
+          3: tokens.color.brand.gold['3'].value,
+          4: tokens.color.brand.gold['4'].value,
+          5: tokens.color.brand.gold['5'].value,
+        },
+        mono: {
+          1: tokens.color.brand.mono['1'].value,
+          2: tokens.color.brand.mono['2'].value,
+          3: tokens.color.brand.mono['3'].value,
+          4: tokens.color.brand.mono['4'].value,
+          5: tokens.color.brand.mono['5'].value,
+          6: tokens.color.brand.mono['6'].value,
+          7: tokens.color.brand.mono['7'].value,
+          8: tokens.color.brand.mono['8'].value,
         },
         surface: {
           DEFAULT: tokens.color.semantic.surface.default.value,

@@ -2,23 +2,23 @@
   "color": {
     "semantic": {
       "surface": {
-        "default": { "$type": "color", "$value": "#06100B", "$description": "Default page background" },
-        "raised": { "$type": "color", "$value": "#0A1A14", "$description": "Card / elevated surface" },
-        "overlay": { "$type": "color", "$value": "#000000B3", "$description": "Modal / panel overlay" }
+        "default": { "$type": "color", "$value": "#000000", "$description": "Default page background — mono.1" },
+        "raised": { "$type": "color", "$value": "#000000CC", "$description": "Card / elevated surface — mono.2" },
+        "overlay": { "$type": "color", "$value": "#000000B3", "$description": "Modal / panel overlay — mono.3" }
       },
       "text": {
-        "primary": { "$type": "color", "$value": "#E6E6E6", "$description": "Headings, body text" },
-        "secondary": { "$type": "color", "$value": "#999999", "$description": "Captions, metadata" },
-        "inverse": { "$type": "color", "$value": "#06100B", "$description": "Text on light backgrounds" }
+        "primary": { "$type": "color", "$value": "#E6E6E6", "$description": "Headings, body text — mono.8" },
+        "secondary": { "$type": "color", "$value": "#999999", "$description": "Captions, metadata — mono.7" },
+        "inverse": { "$type": "color", "$value": "#000000", "$description": "Text on light backgrounds — mono.1" }
       },
       "border": {
-        "subtle": { "$type": "color", "$value": "#FFFFFF26", "$description": "Dividers, borders on dark" },
-        "accent": { "$type": "color", "$value": "#00CCBB", "$description": "Active / focused borders" }
+        "subtle": { "$type": "color", "$value": "#FFFFFF26", "$description": "Dividers, borders on dark — mono.5" },
+        "accent": { "$type": "color", "$value": "#00CCBB", "$description": "Active / focused borders — turquoise.3" }
       },
       "state": {
-        "hover": { "$type": "color", "$value": "#00CCBB1A", "$description": "Hover overlay at 10% turquoise" },
-        "active": { "$type": "color", "$value": "#00CCBB33", "$description": "Active / pressed overlay" },
-        "disabled": { "$type": "color", "$value": "#99999966", "$description": "Disabled state at 40% muted" }
+        "hover": { "$type": "color", "$value": "#00CCBB1A", "$description": "Hover overlay at 10% turquoise.3" },
+        "active": { "$type": "color", "$value": "#00CCBB33", "$description": "Active / pressed overlay at 20% turquoise.3" },
+        "disabled": { "$type": "color", "$value": "#99999966", "$description": "Disabled state at 40% mono.7" }
       }
     }
   }
