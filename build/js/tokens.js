@@ -74,6 +74,22 @@ export const font = {
   },
 };
 
+export const typography = {
+  h1: { value: { fontSize: '65px', fontWeight: 400, lineHeight: '91px' }, type: 'typography', description: 'XXXX-Large — hero display heading' },
+  h2: { value: { fontSize: '50px', fontWeight: 400, lineHeight: '80px' }, type: 'typography', description: 'XXX-Large — page-level heading' },
+  h3: { value: { fontSize: '37px', fontWeight: 400, lineHeight: '44px' }, type: 'typography', description: 'XX-Large — section heading' },
+  h4: { value: { fontSize: '28px', fontWeight: 500, lineHeight: '42px' }, type: 'typography', description: 'X-Large — sub-section heading (medium weight)' },
+  h5: { value: { fontSize: '20px', fontWeight: 400, lineHeight: '30px' }, type: 'typography', description: 'Large — card/panel heading (regular weight)' },
+  h6: { value: { fontSize: '19px', fontWeight: 500, lineHeight: '30px', letterSpacing: '0.03em' }, type: 'typography', description: 'XX-Medium — label heading (medium + 3% tracking)' },
+  h7: { value: { fontSize: '18px', fontWeight: 400, lineHeight: '30px' }, type: 'typography', description: 'X-Medium — compact heading' },
+  h8: { value: { fontSize: '16px', fontWeight: 400, lineHeight: '26px' }, type: 'typography', description: 'X-Medium small — metadata heading' },
+  body1: { value: { fontSize: '20px', fontWeight: 400, lineHeight: '36px' }, type: 'typography', description: 'Large body — lead paragraphs' },
+  body2: { value: { fontSize: '19px', fontWeight: 400, lineHeight: '36px' }, type: 'typography', description: 'XX-Medium body — standard paragraphs' },
+  body3: { value: { fontSize: '18px', fontWeight: 400, lineHeight: '34px' }, type: 'typography', description: 'X-Medium body — compact paragraphs' },
+  caption1: { value: { fontSize: '16px', fontWeight: 300, lineHeight: '28px' }, type: 'typography', description: 'Medium — captions, labels (light weight)' },
+  caption2: { value: { fontSize: '14px', fontWeight: 300, lineHeight: '20px' }, type: 'typography', description: 'Small — fine print, tags (light weight)' },
+};
+
 export const spacing = {
   0: { value: '0px', type: 'dimension' },
   1: { value: '0.25rem', type: 'dimension' },
@@ -109,4 +125,4 @@ export const radius = {
   full: { value: '9999px', type: 'dimension' },
 };
 
-export default { color, font, spacing, shadow, radius };
+export default { color, font, typography, spacing, shadow, radius };

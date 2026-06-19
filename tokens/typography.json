@@ -1,0 +1,69 @@
+{
+  "typography": {
+    "h1": {
+      "$type": "typography",
+      "$value": { "fontSize": "65px", "fontWeight": 400, "lineHeight": "91px" },
+      "$description": "XXXX-Large — hero display heading"
+    },
+    "h2": {
+      "$type": "typography",
+      "$value": { "fontSize": "50px", "fontWeight": 400, "lineHeight": "80px" },
+      "$description": "XXX-Large — page-level heading"
+    },
+    "h3": {
+      "$type": "typography",
+      "$value": { "fontSize": "37px", "fontWeight": 400, "lineHeight": "44px" },
+      "$description": "XX-Large — section heading"
+    },
+    "h4": {
+      "$type": "typography",
+      "$value": { "fontSize": "28px", "fontWeight": 500, "lineHeight": "42px" },
+      "$description": "X-Large — sub-section heading (medium weight)"
+    },
+    "h5": {
+      "$type": "typography",
+      "$value": { "fontSize": "20px", "fontWeight": 400, "lineHeight": "30px" },
+      "$description": "Large — card/panel heading (regular weight)"
+    },
+    "h6": {
+      "$type": "typography",
+      "$value": { "fontSize": "19px", "fontWeight": 500, "lineHeight": "30px", "letterSpacing": "3%" },
+      "$description": "XX-Medium — label heading (medium + tracking)"
+    },
+    "h7": {
+      "$type": "typography",
+      "$value": { "fontSize": "18px", "fontWeight": 400, "lineHeight": "30px" },
+      "$description": "X-Medium — compact heading"
+    },
+    "h8": {
+      "$type": "typography",
+      "$value": { "fontSize": "16px", "fontWeight": 400, "lineHeight": "26px" },
+      "$description": "X-Medium small — metadata heading"
+    },
+    "body1": {
+      "$type": "typography",
+      "$value": { "fontSize": "20px", "fontWeight": 400, "lineHeight": "36px" },
+      "$description": "Large body — lead paragraphs"
+    },
+    "body2": {
+      "$type": "typography",
+      "$value": { "fontSize": "19px", "fontWeight": 400, "lineHeight": "36px" },
+      "$description": "XX-Medium body — standard paragraphs"
+    },
+    "body3": {
+      "$type": "typography",
+      "$value": { "fontSize": "18px", "fontWeight": 400, "lineHeight": "34px" },
+      "$description": "X-Medium body — compact paragraphs"
+    },
+    "caption1": {
+      "$type": "typography",
+      "$value": { "fontSize": "16px", "fontWeight": 300, "lineHeight": "28px" },
+      "$description": "Medium — captions, labels (light weight)"
+    },
+    "caption2": {
+      "$type": "typography",
+      "$value": { "fontSize": "14px", "fontWeight": 300, "lineHeight": "20px" },
+      "$description": "Small — fine print, tags (light weight)"
+    }
+  }
+}

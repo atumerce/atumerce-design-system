@@ -1,0 +1,84 @@
+/**
+ * Atumerce Typography Utility Classes
+ * Generated from tokens/typography.json — Figma Desktop scale
+ * Use: <h1 class="h1">, <p class="body1">, <span class="caption2">
+ */
+
+.h1 {
+  font-size: var(--typography-h1-size);
+  font-weight: var(--typography-h1-weight);
+  line-height: var(--typography-h1-line-height);
+}
+
+.h2 {
+  font-size: var(--typography-h2-size);
+  font-weight: var(--typography-h2-weight);
+  line-height: var(--typography-h2-line-height);
+}
+
+.h3 {
+  font-size: var(--typography-h3-size);
+  font-weight: var(--typography-h3-weight);
+  line-height: var(--typography-h3-line-height);
+}
+
+.h4 {
+  font-size: var(--typography-h4-size);
+  font-weight: var(--typography-h4-weight);
+  line-height: var(--typography-h4-line-height);
+}
+
+.h5 {
+  font-size: var(--typography-h5-size);
+  font-weight: var(--typography-h5-weight);
+  line-height: var(--typography-h5-line-height);
+}
+
+.h6 {
+  font-size: var(--typography-h6-size);
+  font-weight: var(--typography-h6-weight);
+  line-height: var(--typography-h6-line-height);
+  letter-spacing: var(--typography-h6-letter-spacing);
+}
+
+.h7 {
+  font-size: var(--typography-h7-size);
+  font-weight: var(--typography-h7-weight);
+  line-height: var(--typography-h7-line-height);
+}
+
+.h8 {
+  font-size: var(--typography-h8-size);
+  font-weight: var(--typography-h8-weight);
+  line-height: var(--typography-h8-line-height);
+}
+
+.body1 {
+  font-size: var(--typography-body1-size);
+  font-weight: var(--typography-body1-weight);
+  line-height: var(--typography-body1-line-height);
+}
+
+.body2 {
+  font-size: var(--typography-body2-size);
+  font-weight: var(--typography-body2-weight);
+  line-height: var(--typography-body2-line-height);
+}
+
+.body3 {
+  font-size: var(--typography-body3-size);
+  font-weight: var(--typography-body3-weight);
+  line-height: var(--typography-body3-line-height);
+}
+
+.caption1 {
+  font-size: var(--typography-caption1-size);
+  font-weight: var(--typography-caption1-weight);
+  line-height: var(--typography-caption1-line-height);
+}
+
+.caption2 {
+  font-size: var(--typography-caption2-size);
+  font-weight: var(--typography-caption2-weight);
+  line-height: var(--typography-caption2-line-height);
+}

@@ -57,6 +57,67 @@
   --font-size-6xl: 3.75rem;
   --font-size-7xl: 4.5rem;
 
+  /* Font Weight */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Typography Scale (Figma Desktop) */
+  --typography-h1-size: 65px;
+  --typography-h1-weight: 400;
+  --typography-h1-line-height: 91px;
+
+  --typography-h2-size: 50px;
+  --typography-h2-weight: 400;
+  --typography-h2-line-height: 80px;
+
+  --typography-h3-size: 37px;
+  --typography-h3-weight: 400;
+  --typography-h3-line-height: 44px;
+
+  --typography-h4-size: 28px;
+  --typography-h4-weight: 500;
+  --typography-h4-line-height: 42px;
+
+  --typography-h5-size: 20px;
+  --typography-h5-weight: 400;
+  --typography-h5-line-height: 30px;
+
+  --typography-h6-size: 19px;
+  --typography-h6-weight: 500;
+  --typography-h6-line-height: 30px;
+  --typography-h6-letter-spacing: 0.03em;
+
+  --typography-h7-size: 18px;
+  --typography-h7-weight: 400;
+  --typography-h7-line-height: 30px;
+
+  --typography-h8-size: 16px;
+  --typography-h8-weight: 400;
+  --typography-h8-line-height: 26px;
+
+  --typography-body1-size: 20px;
+  --typography-body1-weight: 400;
+  --typography-body1-line-height: 36px;
+
+  --typography-body2-size: 19px;
+  --typography-body2-weight: 400;
+  --typography-body2-line-height: 36px;
+
+  --typography-body3-size: 18px;
+  --typography-body3-weight: 400;
+  --typography-body3-line-height: 34px;
+
+  --typography-caption1-size: 16px;
+  --typography-caption1-weight: 300;
+  --typography-caption1-line-height: 28px;
+
+  --typography-caption2-size: 14px;
+  --typography-caption2-weight: 300;
+  --typography-caption2-line-height: 20px;
+
   /* Spacing */
   --spacing-0: 0px;
   --spacing-1: 0.25rem;
